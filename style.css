@@ -1,0 +1,393 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+ /* Top header section style start */
+.top_header_section{
+    background-color: rgb(36, 47, 66);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.logo{
+    height: 100px;
+    width: 125px;
+    margin-top: -15px;
+    margin-left: 5%;
+}
+.logo img{
+    width: 100%;
+}
+.nav{
+    width: 675px;
+    margin-left: 11%;
+}
+.nav ul{
+    width: 75%;
+    margin: 30px 0;
+}
+.nav ul li{
+    list-style: none;
+    text-align: center;
+    padding: 9px;
+    display: inline-block;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 4px;
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(238, 142, 16);
+}
+.sign_up{
+    width: 175px;
+    margin-left: 6%;
+    margin-top: 25px;
+}
+.sign_up_1{
+    text-decoration: none;
+    width: 50px;
+    border-radius: 15px;
+    background-color: rgb(224, 125, 4);
+    padding: 10px 50px;
+    color: #fff;
+    font-size: 17px;
+}
+.log_in{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(211, 117, 3);
+    display: inline-block;
+    margin-top: 19px;
+    padding-left: 7px;
+    text-transform: capitalize;
+}
+ /* top header section style end */
+
+/* body section start */
+
+.main_body{
+    display: flex;
+    height: 670px;
+    margin-bottom: 50px;
+}
+.main_body_text{
+    width: 45%;
+    padding-left: 5%;
+    margin-top: 10%;
+}
+.main_body_text span{
+    color: #FB8B47;
+}
+.main_body_text h1{
+    font-size: 55px;
+    color: #575757;
+}
+.main_body_text p{
+    font-size: 18px;
+    margin-top: -21px;
+    color: #8d8d8d;
+    margin-bottom: 50px;
+}
+ /* Button Css style start  */
+.main_body_text a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    margin-left: -1px;
+}
+.btn-grad {background-image: linear-gradient(to right, #fe8c00 0%, #f83600  51%, #fe8c00  100%)
+}
+.btn-grad {
+   margin: 10px;
+   padding: 19px 35px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   box-shadow: 0 0 20px #eee;
+   border-radius: 35px;
+}
+ .btn-grad:hover {
+   background-position: right center;
+   color: #fff;
+   text-decoration: none;
+   box-shadow: 7px 11px 30px #717171;
+}
+ /* Button css style end  */
+.main_body_image{
+    width: 45%;
+    margin-left: 10%;
+    margin-top: 40px;
+}
+.main_body_image img{
+    width: 96%;
+}
+ /* main body style end  */
+
+ /* about us section style start  */
+
+.about_us{
+    display: flex;
+    height: 545px;
+    margin-bottom: 60px;
+    background: url(img/7.png);
+    background-size: 1327px 545px;;
+    
+}
+.about_us_image{
+    width: 45%;
+    margin-left: 15%;
+    text-align: center;
+    margin-top: 63px;
+}
+.about_us_image img{
+    width: 303px;
+}
+.about_us_text{
+    width: 60%;
+    margin-left: 5%;
+    padding: 5%;
+}
+.about_us_text h1{
+    color: #707070;
+    font-size: 45px;
+}
+.about_us_text p{
+    color: rgb(46, 46, 46);
+    width: 75%;
+    text-align: justify;
+    margin-bottom: 80px;
+}
+#contact1{
+    text-decoration: none;
+    color: #fff;
+    margin-left: -2px;
+    transition: 0.5s;
+}
+#contact1:hover{
+    box-shadow: 7px 11px 30px #717171;
+}
+
+ /* contact style section end  */
+
+ /* my recipies section style start  */
+
+.my_recipie_section{
+    margin-bottom: 90px;
+}
+.my_recipie_text{
+    text-align: center;
+    width: 100%;
+    
+}
+.my_recipie_text h1{
+    font-size: 35px;
+    color: #676767;
+}
+.my_recipie_text p{
+    opacity: 0.8;
+    width: 45%;
+    
+    margin-left: 375px;
+}
+.my_recipies_item{
+    display: flex;
+    height: 480px;
+    margin: 0 auto;
+    width: 90%;
+}
+.item{
+    width: 22%;
+    background: #fff;
+    margin-left: 5%;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 23px;
+    padding: 2.3% 2.3%;
+    box-shadow: 0 0 25px rgb(209, 204, 204);
+}
+.item:hover{
+    box-shadow: 0 0 25px rgb(124, 92, 92);
+}
+.item_more_button{
+    text-decoration: none;
+    color: orangered;
+    font-size: 30px;
+    line-height: 0px;
+}
+.item img{
+    width: 100%;
+    border-radius: 10%;
+}
+.item_text{
+    text-align: justify;
+}
+
+ /* my recipe section style end  */
+
+ /* Q&A section style start */
+
+.QnA{
+    background: url(img/Q&A_bg.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+.QnA_head{
+    width: 50px;
+    padding: 6px 8px;
+    margin-left: 100px;
+    background: orangered;
+    border-top: 5px solid orange;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 17px;
+}
+.QnA_container{
+    display: flex;
+    margin-bottom: 60px;
+}
+.QnA_body{
+    width: 24%;
+    height: 350px;
+    background: #fff;
+    margin-left: 50px;
+    padding: 2% 2%;
+    border-radius: 20px;
+    text-align: center;
+}
+.QnA_body h1{
+    opacity: 0.9;
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+.QnA_body p{
+    text-align: justify;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+.QnA_body h1 span{
+    color: rgb(241, 135, 13);
+}
+#QnA_dott{
+    text-decoration: none;
+    color: orangered;
+    font-size: 27px;
+    line-height: 0;
+    cursor: auto;
+}
+.qnamore{
+    background-image: linear-gradient( 135deg, #FDD819 10%, #E80505 100%);
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 15px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.qnamore:hover{
+    box-shadow: 2px 5px 22px rgb(158, 134, 134);
+}
+ /* QnA section style start */
+
+ /* subscription area section start  */
+
+ .subscription_area{
+    background: url(img/bg_1.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 67px;
+}
+.subscription_area_header_section{
+    width: 370px;
+    margin-left: 4%;
+    color: white;
+    padding: 5px 10px;
+    background-color: orangered;
+    text-align: center;
+    border-top: 5px solid orange;
+    word-spacing: 4px;
+    font-weight: 700;
+}
+.subscription_text h2{
+    color: #fff;
+    margin-left: 4%;
+    margin-top: 50px;
+    font-weight: 400;
+}
+.subscription_text input{
+    width: 300px;
+    padding: 12px 40px;
+    margin-left: 4%;
+    text-align: center;
+    border-radius: 7px;
+}
+.subscription_button{
+    text-decoration: none;
+    color: #fff;
+    padding: 9px 30px;
+    background-image: linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%);
+    border-radius: 10px;
+}
+.subscription_button {
+    background-image: linear-gradient(to right, #fe8c00 0%, #f83600  51%, #fe8c00  100%)}
+.subscription_button {
+   margin: 10px;
+   text-align: center;
+   transition: 0.5s;
+   color: white;
+   border-radius: 10px;
+   background-size: 200% auto;
+}
+ .subscription_button:hover {
+   background-position: right center;
+   color: #fff;
+   text-decoration: none;
+}
+.subscription_text p{
+    color: rgb(255, 255, 255);
+    margin-left: 4%;
+    font-size: 13px;
+}
+.subscription_text p span{
+    color: orange;
+    cursor: pointer;
+}
+
+ /* subscription area end */
+
+ /* footer area start */
+
+.footer_area_end{
+    width: 100%;
+    height: 200px;
+    background: rgb(47, 46, 63);
+    text-align: center;
+}
+.footer_area_end h1{
+    color: #fff;
+    opacity: 0.8;
+}
+.footer_area_end h1 span{
+    color: orange;
+}
+.footer_area_end h2{
+    color: #fff;
+    opacity: 0.8;
+    font-size: 19px;
+    font-weight: 400;
+}
+.footer_area_end p{
+    color: #fff;
+    margin-top: 70px;
+    font-weight: 400;
+    font-size: 13px;
+}
